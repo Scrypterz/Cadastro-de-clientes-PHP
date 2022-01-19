@@ -16,7 +16,7 @@ function clear($input) {
 }
 
 if(isset($_POST['btn-cadastrar'])) {
-    $nome = clear($connect, $_POST['nome']);
+    $nome = clear($_POST['nome']);
     $sobrenome = clear($_POST['sobrenome']);
     $email = clear($_POST['email']);
     $idade = clear($_POST['idade']);
